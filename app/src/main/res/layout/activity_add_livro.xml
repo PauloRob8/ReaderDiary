@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.paulo_000.readerdiary.AddLivroActivity">
+
+    <EditText
+        android:id="@+id/add_titulo"
+        android:hint="@string/titulo"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_autor"
+        android:hint="@string/autor"
+        android:layout_below="@id/add_titulo"
+        android:inputType="text"
+        android:maxLength="35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_genero"
+        android:layout_below="@id/add_autor"
+        android:hint="@string/genero"
+        android:inputType="text"
+        android:maxLength="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_pg"
+        android:layout_below="@id/add_genero"
+        android:hint="@string/numero_de_p_ginas"
+        android:inputType="number"
+        android:maxLength="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/add_status"
+        android:text="@string/selecione_status_do_livro"
+        android:layout_below="@id/add_ano"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="status"
+        />
+
+    <EditText
+        android:id="@+id/add_ano"
+        android:layout_below="@id/add_pg"
+        android:hint="@string/ano_de_publica_o"
+        android:inputType="date"
+        android:maxLength="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/data_inicial"
+        android:text="00/00/0000"
+        android:visibility="invisible"
+        android:layout_below="@id/add_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calendarioDataInicial"/>
+
+    <TextView
+        android:id="@+id/data_final"
+        android:text="00/00/0000"
+        android:visibility="invisible"
+        android:layout_below="@id/data_inicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calendarioDataFinal"/>
+
+    <EditText
+        android:id="@+id/pagina_atual"
+        android:visibility="invisible"
+        android:hint="Insira página atual:"
+        android:inputType="number"
+        android:layout_below="@id/data_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/save_livro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pagina_atual"
+        android:layout_marginTop="23dp"
+        android:layout_marginVertical="20dp"
+        android:backgroundTint="#00FF00"
+        android:onClick="salvarLivro"
+        android:text="@string/salvar_livro" />
+
+    <Button
+        android:text="@string/cancelar"
+        android:layout_below="@id/save_livro"
+        android:layout_marginVertical="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:onClick="AddCancelar"/>
+
+
+
+</RelativeLayout>
+

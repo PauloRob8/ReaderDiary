@@ -1,0 +1,161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/578d79e292262eb9ecdddb8817450e3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/8b86d8825cb6a81872fcef8fee07a099/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/2a9d7c6721d08c4e280897f9f35ae6a8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/e536fc3cf75384bca8c02b3a9cefc8cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3eef2bb9124234a63240d55824946da/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7ebd10d1edfe56648a122a6c3b78925b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/1bc615a7a630190cefb70a4ba4b0c620/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/881f54f331d5f0b14119d3e37efa507a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83dc06957501b3770c5934fb5f823bfa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/f4bf0cdc52228ec170ae10b3409409ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/b15144c933974b95ef0eb94f73f884d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/c3d923f8a95b3e849e424ddea391191a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/98fd3875ea4fcbb2fe0cc69ba64c9feb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/04aa1a9899fe4e362c830cad1d87fb9f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/af1507e7f18c6c1fe1c6922e6fa7bfae/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:5:5-30:19
+MERGED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:11:5-23:19
+MERGED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:11:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3eef2bb9124234a63240d55824946da/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3eef2bb9124234a63240d55824946da/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:6:9-28
+activity#com.example.paulo_000.readerdiary.LoginActivity
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:13:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.example.paulo_000.readerdiary.ListaLivrosActivity
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:20:9-57
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:20:19-54
+activity#com.example.paulo_000.readerdiary.AddLivroActivity
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:21:9-23:65
+	android:parentActivityName
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:23:13-62
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:22:13-45
+activity#com.example.paulo_000.readerdiary.CadastroActivity
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:24:9-54
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:24:19-51
+activity#com.example.paulo_000.readerdiary.CapitulosActivity
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:25:9-27:65
+	android:parentActivityName
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:27:13-62
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:26:13-46
+activity#com.example.paulo_000.readerdiary.AddCapituloActivity
+ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:28:9-29:20
+	android:name
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml:28:19-54
+uses-sdk
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+MERGED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:7:5-9:41
+MERGED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/578d79e292262eb9ecdddb8817450e3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/578d79e292262eb9ecdddb8817450e3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/8b86d8825cb6a81872fcef8fee07a099/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/8b86d8825cb6a81872fcef8fee07a099/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/2a9d7c6721d08c4e280897f9f35ae6a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/2a9d7c6721d08c4e280897f9f35ae6a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/e536fc3cf75384bca8c02b3a9cefc8cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/e536fc3cf75384bca8c02b3a9cefc8cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3eef2bb9124234a63240d55824946da/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3eef2bb9124234a63240d55824946da/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7ebd10d1edfe56648a122a6c3b78925b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7ebd10d1edfe56648a122a6c3b78925b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/1bc615a7a630190cefb70a4ba4b0c620/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/1bc615a7a630190cefb70a4ba4b0c620/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/881f54f331d5f0b14119d3e37efa507a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/881f54f331d5f0b14119d3e37efa507a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83dc06957501b3770c5934fb5f823bfa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83dc06957501b3770c5934fb5f823bfa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/f4bf0cdc52228ec170ae10b3409409ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/f4bf0cdc52228ec170ae10b3409409ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/b15144c933974b95ef0eb94f73f884d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/b15144c933974b95ef0eb94f73f884d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/c3d923f8a95b3e849e424ddea391191a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/c3d923f8a95b3e849e424ddea391191a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/98fd3875ea4fcbb2fe0cc69ba64c9feb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/98fd3875ea4fcbb2fe0cc69ba64c9feb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/04aa1a9899fe4e362c830cad1d87fb9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/aluno/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/04aa1a9899fe4e362c830cad1d87fb9f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/af1507e7f18c6c1fe1c6922e6fa7bfae/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/aluno/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/af1507e7f18c6c1fe1c6922e6fa7bfae/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+		ADDED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aluno/Downloads/ReaderDiary3.0/app/src/main/AndroidManifest.xml
+service#io.objectbox.android.AndroidObjectBrowserService
+ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:12:9-14:40
+	android:exported
+		ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:13:13-76
+receiver#io.objectbox.android.AndroidObjectBrowserReceiver
+ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:16:9-22:20
+	android:exported
+		ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:17:13-77
+intent-filter#io.objectbox.action.KEEP_ALIVE
+ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:19:13-21:29
+action#io.objectbox.action.KEEP_ALIVE
+ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:20:17-73
+	android:name
+		ADDED from [io.objectbox:objectbox-android:1.4.1] /home/aluno/.gradle/caches/transforms-1/files-1.1/objectbox-android-1.4.1.aar/952a7439acdb07d7ac4058c70c10b9a5/AndroidManifest.xml:20:25-70

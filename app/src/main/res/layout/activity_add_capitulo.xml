@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.paulo_000.readerdiary.AddCapituloActivity">
+
+    <EditText
+        android:id="@+id/add_cap_titulo"
+        android:hint="@string/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/add_comentario_titulo"
+        android:hint="Comentario:"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <Button
+        android:text="Salvar"
+        android:onClick="salvarCapitulo"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Cancelar"
+        android:onClick="cancelarCapitulo"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

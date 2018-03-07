@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.paulo_000.readerdiary.CapitulosActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/opniao"
+            android:text="O que achou desse livro?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/group_button"
+            android:orientation="horizontal"
+            android:layout_below="@id/opniao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/button1"
+            android:text="Gostei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="gostei"/>
+
+        <RadioButton
+            android:id="@+id/button2"
+            android:text="Não gostei"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nGostei"/>
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/avaliação"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/capitulos"
+            android:layout_marginStart="56dp"
+            android:layout_toEndOf="@+id/group_button" />
+
+        <TextView
+            android:id="@+id/capitulos"
+            android:layout_below="@id/group_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cápitulos"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_below="@id/capitulos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_capitulos"
+            android:layout_below="@id/capitulos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <android.support.design.widget.FloatingActionButton
+            app:layout_anchor="@id/rv_capitulos"
+            android:src="@drawable/abook"
+            android:backgroundTint="@color/colorPrimary"
+            app:layout_anchorGravity="bottom|right|end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addLivro"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
+</LinearLayout>

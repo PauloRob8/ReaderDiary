@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/lidos"
+        android:icon="@mipmap/ic_libook"
+        android:title="@string/livros_lidos">
+
+    </item>
+
+    <item
+        android:id="@+id/Lendo"
+        android:icon="@drawable/edit"
+        android:title="Lendo">
+
+    </item>
+
+    <item
+        android:id="@+id/interrese"
+        android:icon="@mipmap/ic_inbook"
+        android:title="@string/livros_de_interesse">
+
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@mipmap/ic_logout"
+        android:title="@string/sair">
+    </item>
+
+
+</menu>
